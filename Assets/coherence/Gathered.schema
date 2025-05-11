@@ -1,7 +1,63 @@
-component _14d4e5096425b424096f9457117bcf3c_7080837773287956480 [id "18"]
+component _14d4e5096425b424096f9457117bcf3c_1478335740449149967 [id "18"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_1591343595908577163 [id "19"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_168397295501630785 [id "20"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_1869411052377308189 [id "21"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_2106243788975661739 [id "22"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_2398892606049841091 [id "23"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_277562146158527092 [id "24"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_509761349733158980 [id "25"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_5177455778382932991 [id "26"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_5223041203416798951 [id "27"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_5895287073357317839 [id "28"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_6037905990411784546 [id "29"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_6476855372014036190 [id "30"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_651391799293454607 [id "31"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_7080837773287956480 [id "32"]
   minMoveDistance Float [compression "None"]
 
-component _14d4e5096425b424096f9457117bcf3c_7080837773287956486 [id "19"]
+component _14d4e5096425b424096f9457117bcf3c_7080837773287956486 [id "33"]
   FullBodyWeight Float [compression "None"]
   CrouchWeight Float [compression "None"]
   ProneWeight Float [compression "None"]
@@ -16,4 +72,28 @@ component _14d4e5096425b424096f9457117bcf3c_7080837773287956486 [id "19"]
   Crouching Bool [bits "1"]
   Proning Bool [bits "1"]
   InAir Bool [bits "1"]
+
+component _14d4e5096425b424096f9457117bcf3c_7325361652573790711 [id "34"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_7589785228177380032 [id "35"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_797313045084205988 [id "36"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_8345272977185104610 [id "37"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_8621089949076129845 [id "38"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _14d4e5096425b424096f9457117bcf3c_9017741776493939344 [id "39"]
+  position Vector3 [sim-frames "true", compression "None"]
+  rotation Quaternion [bits "32", sim-frames "true"]
 

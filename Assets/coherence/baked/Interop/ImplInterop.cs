@@ -42,8 +42,28 @@ namespace Coherence.Generated
                 case 15: return Scene.FromInterop(data, dataSize, simFrames, simFramesCount);
                 case 16: return AssetId.FromInterop(data, dataSize, simFrames, simFramesCount);
                 case 17: return GenericScale.FromInterop(data, dataSize, simFrames, simFramesCount);
-                case 18: return _14d4e5096425b424096f9457117bcf3c_7080837773287956480.FromInterop(data, dataSize, simFrames, simFramesCount);
-                case 19: return _14d4e5096425b424096f9457117bcf3c_7080837773287956486.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 18: return _14d4e5096425b424096f9457117bcf3c_1478335740449149967.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 19: return _14d4e5096425b424096f9457117bcf3c_1591343595908577163.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 20: return _14d4e5096425b424096f9457117bcf3c_168397295501630785.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 21: return _14d4e5096425b424096f9457117bcf3c_1869411052377308189.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 22: return _14d4e5096425b424096f9457117bcf3c_2106243788975661739.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 23: return _14d4e5096425b424096f9457117bcf3c_2398892606049841091.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 24: return _14d4e5096425b424096f9457117bcf3c_277562146158527092.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 25: return _14d4e5096425b424096f9457117bcf3c_509761349733158980.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 26: return _14d4e5096425b424096f9457117bcf3c_5177455778382932991.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 27: return _14d4e5096425b424096f9457117bcf3c_5223041203416798951.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 28: return _14d4e5096425b424096f9457117bcf3c_5895287073357317839.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 29: return _14d4e5096425b424096f9457117bcf3c_6037905990411784546.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 30: return _14d4e5096425b424096f9457117bcf3c_6476855372014036190.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 31: return _14d4e5096425b424096f9457117bcf3c_651391799293454607.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 32: return _14d4e5096425b424096f9457117bcf3c_7080837773287956480.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 33: return _14d4e5096425b424096f9457117bcf3c_7080837773287956486.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 34: return _14d4e5096425b424096f9457117bcf3c_7325361652573790711.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 35: return _14d4e5096425b424096f9457117bcf3c_7589785228177380032.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 36: return _14d4e5096425b424096f9457117bcf3c_797313045084205988.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 37: return _14d4e5096425b424096f9457117bcf3c_8345272977185104610.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 38: return _14d4e5096425b424096f9457117bcf3c_8621089949076129845.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 39: return _14d4e5096425b424096f9457117bcf3c_9017741776493939344.FromInterop(data, dataSize, simFrames, simFramesCount);
             }
 
             throw new ArgumentException($"Unkown component type {type}", nameof(type));
@@ -258,6 +278,174 @@ namespace Coherence.Generated
                 }
                 case 18:
                 {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_1478335740449149967)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_1478335740449149967.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 19:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_1591343595908577163)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_1591343595908577163.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 20:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_168397295501630785)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_168397295501630785.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 21:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_1869411052377308189)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_1869411052377308189.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 22:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_2106243788975661739)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_2106243788975661739.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 23:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_2398892606049841091)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_2398892606049841091.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 24:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_277562146158527092)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_277562146158527092.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 25:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_509761349733158980)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_509761349733158980.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 26:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_5177455778382932991)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_5177455778382932991.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 27:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_5223041203416798951)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_5223041203416798951.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 28:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_5895287073357317839)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_5895287073357317839.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 29:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_6037905990411784546)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_6037905990411784546.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 30:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_6476855372014036190)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_6476855372014036190.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 31:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_651391799293454607)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_651391799293454607.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 32:
+                {
                     var orig = (_14d4e5096425b424096f9457117bcf3c_7080837773287956480)component;
                     var val = new _14d4e5096425b424096f9457117bcf3c_7080837773287956480.Interop();
 
@@ -267,7 +455,7 @@ namespace Coherence.Generated
 
                     return;
                 }
-                case 19:
+                case 33:
                 {
                     var orig = (_14d4e5096425b424096f9457117bcf3c_7080837773287956486)component;
                     var val = new _14d4e5096425b424096f9457117bcf3c_7080837773287956486.Interop();
@@ -288,6 +476,78 @@ namespace Coherence.Generated
                     val.InAir = orig.InAir ? (System.Byte)1 : (System.Byte)0;
 
                     updater.UpdateComponent(entity, componentType, val, 44, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 34:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_7325361652573790711)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_7325361652573790711.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 35:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_7589785228177380032)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_7589785228177380032.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 36:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_797313045084205988)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_797313045084205988.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 37:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_8345272977185104610)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_8345272977185104610.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 38:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_8621089949076129845)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_8621089949076129845.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 39:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_9017741776493939344)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_9017741776493939344.Interop();
+
+                    val.position = orig.position;
+                    val.rotation = orig.rotation;
+
+                    updater.UpdateComponent(entity, componentType, val, 28, component.FieldsMask, component.StoppedMask, frames);
 
                     return;
                 }
