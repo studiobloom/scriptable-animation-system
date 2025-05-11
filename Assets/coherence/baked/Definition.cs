@@ -20,7 +20,7 @@ namespace Coherence.Generated
 
     public class Definition : IDefinition
     {
-        public const string schemaId = "8a9f47989b5043b46f033c3d7c34fced0b68b387";
+        public const string schemaId = "fe4ccab2876ae3abf475f8d9ab20f65e93fb40cb";
         public const uint InternalWorldPosition = 0;
         public const uint InternalWorldOrientation = 1;
         public const uint InternalLocalUserComponent = 2;
@@ -39,7 +39,8 @@ namespace Coherence.Generated
         public const uint InternalScene = 15;
         public const uint InternalAssetId = 16;
         public const uint InternalGenericScale = 17;
-        public const uint Internal_14d4e5096425b424096f9457117bcf3c_7080837773287956486 = 18;
+        public const uint Internal_14d4e5096425b424096f9457117bcf3c_7080837773287956480 = 18;
+        public const uint Internal_14d4e5096425b424096f9457117bcf3c_7080837773287956486 = 19;
         public const uint InternalAuthorityRequest = 0;
         public const uint InternalAuthorityTransfer = 1;
         public const uint InternalQuerySynced = 2;
@@ -67,7 +68,8 @@ namespace Coherence.Generated
             { 15, "Scene" },
             { 16, "AssetId" },
             { 17, "GenericScale" },
-            { 18, "_14d4e5096425b424096f9457117bcf3c_7080837773287956486" },
+            { 18, "_14d4e5096425b424096f9457117bcf3c_7080837773287956480" },
+            { 19, "_14d4e5096425b424096f9457117bcf3c_7080837773287956486" },
         };
 
         public static string ComponentNameForTypeId(uint typeId)
@@ -135,6 +137,8 @@ namespace Coherence.Generated
                     return AssetId.Deserialize(referenceSimulationFrame, inProtocolStream);
                 case InternalGenericScale:
                     return GenericScale.Deserialize(referenceSimulationFrame, inProtocolStream);
+                case Internal_14d4e5096425b424096f9457117bcf3c_7080837773287956480:
+                    return _14d4e5096425b424096f9457117bcf3c_7080837773287956480.Deserialize(referenceSimulationFrame, inProtocolStream);
                 case Internal_14d4e5096425b424096f9457117bcf3c_7080837773287956486:
                     return _14d4e5096425b424096f9457117bcf3c_7080837773287956486.Deserialize(referenceSimulationFrame, inProtocolStream);
                 default:
@@ -184,6 +188,8 @@ namespace Coherence.Generated
                     return AssetId.Serialize((AssetId)data, isRefSimFrameValid, referenceSimulationFrame, protocolStream, logger);
                 case InternalGenericScale:
                     return GenericScale.Serialize((GenericScale)data, isRefSimFrameValid, referenceSimulationFrame, protocolStream, logger);
+                case Internal_14d4e5096425b424096f9457117bcf3c_7080837773287956480:
+                    return _14d4e5096425b424096f9457117bcf3c_7080837773287956480.Serialize((_14d4e5096425b424096f9457117bcf3c_7080837773287956480)data, isRefSimFrameValid, referenceSimulationFrame, protocolStream, logger);
                 case Internal_14d4e5096425b424096f9457117bcf3c_7080837773287956486:
                     return _14d4e5096425b424096f9457117bcf3c_7080837773287956486.Serialize((_14d4e5096425b424096f9457117bcf3c_7080837773287956486)data, isRefSimFrameValid, referenceSimulationFrame, protocolStream, logger);
                 default:

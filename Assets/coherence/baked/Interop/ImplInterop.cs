@@ -42,7 +42,8 @@ namespace Coherence.Generated
                 case 15: return Scene.FromInterop(data, dataSize, simFrames, simFramesCount);
                 case 16: return AssetId.FromInterop(data, dataSize, simFrames, simFramesCount);
                 case 17: return GenericScale.FromInterop(data, dataSize, simFrames, simFramesCount);
-                case 18: return _14d4e5096425b424096f9457117bcf3c_7080837773287956486.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 18: return _14d4e5096425b424096f9457117bcf3c_7080837773287956480.FromInterop(data, dataSize, simFrames, simFramesCount);
+                case 19: return _14d4e5096425b424096f9457117bcf3c_7080837773287956486.FromInterop(data, dataSize, simFrames, simFramesCount);
             }
 
             throw new ArgumentException($"Unkown component type {type}", nameof(type));
@@ -256,6 +257,17 @@ namespace Coherence.Generated
                     return;
                 }
                 case 18:
+                {
+                    var orig = (_14d4e5096425b424096f9457117bcf3c_7080837773287956480)component;
+                    var val = new _14d4e5096425b424096f9457117bcf3c_7080837773287956480.Interop();
+
+                    val.minMoveDistance = orig.minMoveDistance;
+
+                    updater.UpdateComponent(entity, componentType, val, 4, component.FieldsMask, component.StoppedMask, frames);
+
+                    return;
+                }
+                case 19:
                 {
                     var orig = (_14d4e5096425b424096f9457117bcf3c_7080837773287956486)component;
                     var val = new _14d4e5096425b424096f9457117bcf3c_7080837773287956486.Interop();

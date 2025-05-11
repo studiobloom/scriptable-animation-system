@@ -1,4 +1,7 @@
-component _14d4e5096425b424096f9457117bcf3c_7080837773287956486 [id "18"]
+component _14d4e5096425b424096f9457117bcf3c_7080837773287956480 [id "18"]
+  minMoveDistance Float [compression "None"]
+
+component _14d4e5096425b424096f9457117bcf3c_7080837773287956486 [id "19"]
   FullBodyWeight Float [compression "None"]
   CrouchWeight Float [compression "None"]
   ProneWeight Float [compression "None"]

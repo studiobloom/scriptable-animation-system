@@ -76,7 +76,7 @@ namespace Coherence.Generated
         }    
     }
     [UnityEngine.Scripting.Preserve]
-    public class Binding_14d4e5096425b424096f9457117bcf3c_662f71efb1bd4675afbcc71c5e3bbbab : RotationBinding
+    public class Binding_14d4e5096425b424096f9457117bcf3c_d89cc70bc2f74fb79717340aef294810 : RotationBinding
     {   
         private global::UnityEngine.Transform CastedUnityComponent;
 
@@ -840,6 +840,57 @@ namespace Coherence.Generated
             return new _14d4e5096425b424096f9457117bcf3c_7080837773287956486();
         }    
     }
+    [UnityEngine.Scripting.Preserve]
+    public class Binding_14d4e5096425b424096f9457117bcf3c_64595bc85e064034ac2d5468fc75f437 : FloatBinding
+    {   
+        private global::UnityEngine.CharacterController CastedUnityComponent;
+
+        protected override void OnBindingCloned()
+        {
+    	    CastedUnityComponent = (global::UnityEngine.CharacterController)UnityComponent;
+        }
+
+        public override global::System.Type CoherenceComponentType => typeof(_14d4e5096425b424096f9457117bcf3c_7080837773287956480);
+        public override string CoherenceComponentName => "_14d4e5096425b424096f9457117bcf3c_7080837773287956480";
+        public override uint FieldMask => 0b00000000000000000000000000000001;
+
+        public override System.Single Value
+        {
+            get { return (System.Single)(CastedUnityComponent.minMoveDistance); }
+            set { CastedUnityComponent.minMoveDistance = (System.Single)(value); }
+        }
+
+        protected override (System.Single value, AbsoluteSimulationFrame simFrame) ReadComponentData(ICoherenceComponentData coherenceComponent, Vector3 floatingOriginDelta)
+        {
+            var value = ((_14d4e5096425b424096f9457117bcf3c_7080837773287956480)coherenceComponent).minMoveDistance;
+
+            var simFrame = ((_14d4e5096425b424096f9457117bcf3c_7080837773287956480)coherenceComponent).minMoveDistanceSimulationFrame;
+            
+            return (value, simFrame);
+        }
+
+        public override ICoherenceComponentData WriteComponentData(ICoherenceComponentData coherenceComponent, AbsoluteSimulationFrame simFrame)
+        {
+            var update = (_14d4e5096425b424096f9457117bcf3c_7080837773287956480)coherenceComponent;
+            if (Interpolator.IsInterpolationNone)
+            {
+                update.minMoveDistance = Value;
+            }
+            else
+            {
+                update.minMoveDistance = GetInterpolatedAt(simFrame / InterpolationSettings.SimulationFramesPerSecond);
+            }
+
+            update.minMoveDistanceSimulationFrame = simFrame;
+            
+            return update;
+        }
+
+        public override ICoherenceComponentData CreateComponentData()
+        {
+            return new _14d4e5096425b424096f9457117bcf3c_7080837773287956480();
+        }    
+    }
 
     [UnityEngine.Scripting.Preserve]
     public class CoherenceSync_14d4e5096425b424096f9457117bcf3c : CoherenceSyncBaked
@@ -855,7 +906,7 @@ namespace Coherence.Generated
         private readonly Dictionary<string, Binding> bakedValueBindings = new Dictionary<string, Binding>()
         {
 			["fb08a1cf66fd4f98bb64c2d94d247538"] = new Binding_14d4e5096425b424096f9457117bcf3c_fb08a1cf66fd4f98bb64c2d94d247538(),
-			["662f71efb1bd4675afbcc71c5e3bbbab"] = new Binding_14d4e5096425b424096f9457117bcf3c_662f71efb1bd4675afbcc71c5e3bbbab(),
+			["d89cc70bc2f74fb79717340aef294810"] = new Binding_14d4e5096425b424096f9457117bcf3c_d89cc70bc2f74fb79717340aef294810(),
 			["f55b4048c6694c53b8c4b4406c436a91"] = new Binding_14d4e5096425b424096f9457117bcf3c_f55b4048c6694c53b8c4b4406c436a91(),
 			["9c603a7163b4418f88ef82e9c84273dc"] = new Binding_14d4e5096425b424096f9457117bcf3c_9c603a7163b4418f88ef82e9c84273dc(),
 			["52a203a5445344ffb8056364907b45ed"] = new Binding_14d4e5096425b424096f9457117bcf3c_52a203a5445344ffb8056364907b45ed(),
@@ -870,6 +921,7 @@ namespace Coherence.Generated
 			["cca20b7a553241aea96ddc2daecfc954"] = new Binding_14d4e5096425b424096f9457117bcf3c_cca20b7a553241aea96ddc2daecfc954(),
 			["d08c138f0a89412aaa0180bfe677b509"] = new Binding_14d4e5096425b424096f9457117bcf3c_d08c138f0a89412aaa0180bfe677b509(),
 			["f7b4a9a65ca840d88ac4d335ac02021b"] = new Binding_14d4e5096425b424096f9457117bcf3c_f7b4a9a65ca840d88ac4d335ac02021b(),
+			["64595bc85e064034ac2d5468fc75f437"] = new Binding_14d4e5096425b424096f9457117bcf3c_64595bc85e064034ac2d5468fc75f437(),
         };
         
         private Dictionary<string, Action<CommandBinding, CommandsHandler>> bakedCommandBindings = new Dictionary<string, Action<CommandBinding, CommandsHandler>>();

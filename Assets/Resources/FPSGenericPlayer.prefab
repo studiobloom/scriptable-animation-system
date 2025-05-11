@@ -2639,7 +2639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7080837772603167591
 Transform:
   m_ObjectHideFlags: 0
@@ -3836,7 +3836,6 @@ MonoBehaviour:
   preserveChildren: 0
   bindings:
   - rid: 3010874274230566920
-  - rid: 3010874274230566922
   - rid: 3010874274230566924
   - rid: 3010874274230566925
   - rid: 3010874274230566926
@@ -3851,6 +3850,8 @@ MonoBehaviour:
   - rid: 3010874274230566935
   - rid: 3010874274230566936
   - rid: 3010874274230566937
+  - rid: 3010874284618023192
+  - rid: 3010874304301105153
   onNetworkedInstantiation:
     m_PersistentCalls:
       m_Calls: []
@@ -3929,53 +3930,6 @@ MonoBehaviour:
             Coherence.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         oldName: 
         oldParameterAssemblyTypes: []
-    - rid: 3010874274230566922
-      type: {class: RotationBinding, ns: Coherence.Toolkit.Bindings.TransformBindings,
-        asm: Coherence.Toolkit}
-      data:
-        descriptor:
-          rid: 3010874274230566923
-        routing: 0
-        syncMode: 0
-        isPredicted: 0
-        predictionMode: 0
-        guid: 662f71efb1bd4675afbcc71c5e3bbbab
-        archetypeData:
-          type: 8
-          minRange: 0
-          maxRange: 0
-          sampleRate: 20
-          floatCompression: 0
-          fields:
-          - type: 8
-            bits: 32
-            precision: 0.00000008381903171539307
-            floatCompression: 0
-        unityComponent: {fileID: 7335951532116981467}
-        coherenceSync: {fileID: 77438689517642934}
-        interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
-          type: 2}
-    - rid: 3010874274230566923
-      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
-      data:
-        name: rotation
-        monoAssemblyType: UnityEngine.Quaternion, UnityEngine
-        required: 0
-        enforcesLODingWhenFieldsOverriden: 1
-        valueSyncCallbackName: 
-        memberType: 64
-        parameterAssemblyTypes: []
-        ownerType:
-          assemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
-        defaultSyncMode: 0
-        CustomData:
-          rid: -2
-        bindingType:
-          assemblyQualifiedName: Coherence.Toolkit.Bindings.TransformBindings.RotationBinding,
-            Coherence.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        oldName: 
-        oldParameterAssemblyTypes: []
     - rid: 3010874274230566924
       type: {class: FloatAnimatorParameterBinding, ns: Coherence.Toolkit.Bindings,
         asm: Coherence.Toolkit}
@@ -3991,7 +3945,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4016,7 +3970,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4041,7 +3995,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4066,7 +4020,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4091,7 +4045,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4116,7 +4070,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4141,7 +4095,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4166,7 +4120,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4191,7 +4145,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4216,7 +4170,7 @@ MonoBehaviour:
           type: 4
           minRange: -9223372036854775808
           maxRange: -9223372036854775808
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 4
@@ -4241,7 +4195,7 @@ MonoBehaviour:
           type: 3
           minRange: 0
           maxRange: 0
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 3
@@ -4266,7 +4220,7 @@ MonoBehaviour:
           type: 3
           minRange: 0
           maxRange: 0
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 3
@@ -4291,7 +4245,7 @@ MonoBehaviour:
           type: 3
           minRange: 0
           maxRange: 0
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 3
@@ -4316,7 +4270,7 @@ MonoBehaviour:
           type: 3
           minRange: 0
           maxRange: 0
-          sampleRate: 0
+          sampleRate: 20
           floatCompression: 0
           fields:
           - type: 3
@@ -4684,6 +4638,98 @@ MonoBehaviour:
         asm: Coherence.Toolkit}
       data:
         component: {fileID: 7080837773287956482}
+    - rid: 3010874284618023192
+      type: {class: FloatBinding, ns: Coherence.Toolkit.Bindings.ValueBindings, asm: Coherence.Toolkit}
+      data:
+        descriptor:
+          rid: 3010874284618023193
+        routing: 0
+        syncMode: 0
+        isPredicted: 0
+        predictionMode: 0
+        guid: 64595bc85e064034ac2d5468fc75f437
+        archetypeData:
+          type: 4
+          minRange: -9223372036854775808
+          maxRange: -9223372036854775808
+          sampleRate: 20
+          floatCompression: 0
+          fields:
+          - type: 4
+            bits: 32
+            precision: 0.001
+            floatCompression: 0
+        unityComponent: {fileID: 7080837773287956480}
+        coherenceSync: {fileID: 77438689517642934}
+        interpolationSettings: {fileID: 0}
+    - rid: 3010874284618023193
+      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        name: minMoveDistance
+        monoAssemblyType: System.Single, mscorlib
+        required: 0
+        enforcesLODingWhenFieldsOverriden: 1
+        valueSyncCallbackName: 
+        memberType: 16
+        parameterAssemblyTypes: []
+        ownerType:
+          assemblyQualifiedName: UnityEngine.CharacterController, UnityEngine.PhysicsModule,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
+        CustomData:
+          rid: -2
+        bindingType:
+          assemblyQualifiedName: Coherence.Toolkit.Bindings.ValueBindings.FloatBinding,
+            Coherence.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        oldName: 
+        oldParameterAssemblyTypes: []
+    - rid: 3010874304301105153
+      type: {class: RotationBinding, ns: Coherence.Toolkit.Bindings.TransformBindings,
+        asm: Coherence.Toolkit}
+      data:
+        descriptor:
+          rid: 3010874304301105154
+        routing: 0
+        syncMode: 0
+        isPredicted: 0
+        predictionMode: 0
+        guid: d89cc70bc2f74fb79717340aef294810
+        archetypeData:
+          type: 8
+          minRange: 0
+          maxRange: 0
+          sampleRate: 20
+          floatCompression: 0
+          fields:
+          - type: 8
+            bits: 32
+            precision: 0.00000008381903171539307
+            floatCompression: 0
+        unityComponent: {fileID: 7335951532116981467}
+        coherenceSync: {fileID: 77438689517642934}
+        interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+          type: 2}
+    - rid: 3010874304301105154
+      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        name: rotation
+        monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+        required: 0
+        enforcesLODingWhenFieldsOverriden: 1
+        valueSyncCallbackName: 
+        memberType: 64
+        parameterAssemblyTypes: []
+        ownerType:
+          assemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
+        CustomData:
+          rid: -2
+        bindingType:
+          assemblyQualifiedName: Coherence.Toolkit.Bindings.TransformBindings.RotationBinding,
+            Coherence.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        oldName: 
+        oldParameterAssemblyTypes: []
 --- !u!1 &8013991372830061359
 GameObject:
   m_ObjectHideFlags: 0
